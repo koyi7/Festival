@@ -1,0 +1,194 @@
+@media all and (min-width: 700px) and (max-width:1080px){
+    body{
+        margin: 0px;
+    background-image: linear-gradient(
+      rgba(8, 8, 8, 0.63),
+      rgba(32, 32, 32, 0.527),
+      rgba(15, 14, 14, 0.74) 
+    ), url(./img/pieja.gif);
+    }
+    .navbar{
+        width: 4vw;
+        height: 100%;
+        background-color: rgba(2, 2, 7);
+    }
+    .navbar-nav{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar-nav i{
+        margin-left: 6px;
+    }
+    .nav-item span{
+        display: none;
+    }
+    .nav-item:hover span{
+        display: contents;
+    }
+    .navbar:hover{
+        height: 100%;
+        width: 20vw;
+    }
+    .cabeza{
+        background-image: 
+        url(./img/header2.jpeg);
+        padding: 0 50px;
+        margin: 0;
+        width: 86%;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 0.5px solid white;
+    }
+    .cabeza h1{
+        color: rgb(255, 255, 255);
+        background-attachment: fixed;
+        background: rgba(31, 18, 39, 0.282);
+        border-radius: 2%;
+      }
+    .pic{
+        width: 77%;
+    }
+    .contenedor2{
+        grid-gap: 5px;
+        margin:0;
+    }
+    .contenedor2 
+    .About{
+        margin-left: 70px;
+    }
+    .About p{
+        font-size: 23px;
+    }
+    .form{
+        width: 400px;
+        position: center;
+    }
+    footer{
+        margin-top:15px ;
+        padding: 0;
+      }
+      textarea {
+          width: 300px;
+      }
+      .pie{
+          background-image: linear-gradient(rgba(116, 220, 228, 0.842),
+           rgba(12, 11, 11, 0.808)), url(./img/Woman.jfif);
+          display: flex;
+          position: initial;
+          text-align: end;
+          justify-content: space-between; 
+      }
+      .pie p{
+          margin: 0;
+          color: white;
+      }
+      
+      #icon{
+        color: white;
+      }
+}
+ @media all and (max-width: 700px){
+    body{
+        margin: 0px;
+    background-image: linear-gradient(
+      rgba(8, 8, 8, 0.63),
+      rgba(32, 32, 32, 0.527),
+      rgba(15, 14, 14, 0.74) 
+    ), url(./img/pieja.gif);
+    }
+    .navbar{
+        width: 5vw;
+        height: 100%;
+        background-color: rgba(2, 2, 7);
+    }
+    .navbar-nav{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar-nav i{
+        margin-left: 4px;
+    }
+    .nav-item span{
+        display: none;
+    }
+    .nav-item:hover span{
+        display: contents;
+    }
+    .navbar:hover{
+        height: 100%;
+        width: 30vw;
+    }
+    .cabeza{
+        background-image: 
+        url(./img/header2.jpeg);
+        padding: 0 50px;
+        margin: 0;
+        width: 83%;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 0.5px solid white;
+    }
+    .cabeza h1{
+        color: rgb(255, 255, 255);
+        background-attachment: fixed;
+        background: rgba(31, 18, 39, 0.282);
+        border-radius: 2%;
+        font-size: 50px;
+      }
+    /* .pic{
+        width: 70%;
+    } */
+    .pic-ctn{
+        width: 89%;
+        height: 58vh;
+    }
+    .contenedor2{
+        grid-gap: 0;
+        margin:0;
+    }
+    .About{
+        margin-left: 15px;
+        padding-right: 0;
+        width: 460px;
+    }
+    .About p{
+        font-size: 20px;
+    }
+    .About h1{
+        font-size: 50px;
+    }
+    .form{
+        width: 300px;
+        margin-left: 100px;
+    }
+    textarea {
+        width: 280px;
+    }
+    footer{
+        margin-top:15px ;
+        padding: 0;
+      }
+      .pie{
+          background-image: linear-gradient(rgba(116, 220, 228, 0.842),
+           rgba(12, 11, 11, 0.808)), url(./img/Woman.jfif);
+          display: flex;
+          position: initial;
+          text-align: end;
+          justify-content: space-between; 
+          width: 91vh;
+      }
+      .pie p{
+          margin: 0;
+          color: white;
+      }
+      
+      #icon{
+        color: white;
+      }
+} 
