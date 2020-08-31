@@ -2,13 +2,13 @@
  /* *{outline: 1px solid red}  */
 body{
     margin:0px;
-    background-image: linear-gradient(
+    background-image:linear-gradient(
       rgba(8, 8, 8, 0.63),
       rgba(32, 32, 32, 0.527),
       rgba(15, 14, 14, 0.74) 
-    ), url(./img/pieja.gif);
+    ), url(./img/fondo1.jfif);
     background-position: center; 
-    /* background-size: cover; */
+    background-size: cover;
 } 
 a{
     text-decoration: none;
